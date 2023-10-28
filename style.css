@@ -22,7 +22,7 @@ body{
     top: 0;
     z-index: 2;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-    border-radius:  0px 0px 10px 10px;
+    border-radius:  10px 10px 0px 0px;
    
     
    
@@ -50,7 +50,7 @@ body{
 }
 
 .navigation ul li:hover {
- background: #f0eaea;    
+ background: #87b0e4;    
 }
 
 a {
@@ -60,10 +60,6 @@ a {
 
 }
 
-.card h2{
-   margin-top: 500px;
-    
-}
 
 .mchs{
     width: 40px;
@@ -72,19 +68,33 @@ a {
 
 .card2{
     margin-top: 100px;
-
-   /* border: 2px solid #272626;*/
-    width: 450px;
-    height: 150px;
-    padding:0%;
-
+    margin-bottom: 0px;
+    /*border: 2px solid #272626;*/
+    width: auto;
+    height: auto;
+    text-align: left;
+   
+ 
+}
+.card2 .mchsflag{
     
+    float: right;
+    padding-right: 20px;
+   
+   
+    width: 150px;
+    height: 100px;
+  
 }
     
+
+
+
 .card2 h1{
     padding-left: 10px;
     margin-top: 20px;
     margin-bottom:0;
+    padding-top: 10px;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -98,7 +108,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 
 .card4{
-    width: 400px;
+    width: auto;
     height: 1800px;
     border: 2px  solid #000;
     background: #7fabd6;
@@ -106,9 +116,15 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 
 .stroka{
+    margin-top: 50px;
     margin-bottom: 20px;
     padding: 0;
     border: 1px  solid #bebfc1;
     border-left: none;
     border-right:  none;
+}
+
+.mchsr{
+   width: 40px;
+   height: 30px;
 }
